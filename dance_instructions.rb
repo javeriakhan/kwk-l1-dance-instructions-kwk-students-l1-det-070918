@@ -8,7 +8,7 @@ starting_stance
 def base_footwork
   puts "lift right foot"
   puts "return right foot to ground"
-  puts "finishing with a small skip-step backward"
+    skip_step("left foot")
 END
 base_footwork
 
