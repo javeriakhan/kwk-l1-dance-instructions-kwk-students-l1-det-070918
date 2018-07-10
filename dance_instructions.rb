@@ -17,8 +17,6 @@ def skip_step(starting_stance)
   puts "bounce #{starting_stance} back up slightly, kicking it a few inches back"
   puts "left, right, left and left"
 end
-  skip_step(left)
-  skip_step(right)
 
 def bob_the_reins
   puts "Holding your arms out in front of you, straight and at chest level"
