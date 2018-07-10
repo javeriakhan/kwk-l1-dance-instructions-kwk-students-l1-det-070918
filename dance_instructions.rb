@@ -39,12 +39,11 @@ end
 bust_a_move
 
 def gangnam_style
-  puts "Assume stance"
-  puts "Bust a move"
-  puts "footwork"
-  puts "Bob the reins + skip-steps x8"
-  puts "Lasso + skip-steps x8"
-end
-gangnam_style
-
-  
+starting_stance
+  base_footwork
+  skip_step("right foot")
+  bob_the_reins
+  skip_step("left foot")
+  lasso
+  bust_a_move
+end 
